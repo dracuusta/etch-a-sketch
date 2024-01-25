@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-sketch</title>
+    <script>
+        function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
+    </script>
+   <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <div class="buttons">
+    <input id="input-button" type = "button" value = "Set Grid Size" onclick = "gridValue();" />  
+    <input id="reset-button" type = "button" value = "Reset" onclick = "resetDivs();" />  
+    <input id="rainbow-button" type = "button" value = "Rainbow Sketch" /> 
+  </div>
+    <div class="flex-container" id="container">
+      
+    </div>
+    
+</body>
+<script src="scripts.js"></script>
+</html>
